@@ -1,0 +1,237 @@
+{
+  "pluginStatus": true,
+  "isPaid": true,
+  "communityName": "",
+  "betaCommunity": true,
+  "features": {
+    "inGameInterface": true,
+    "rangeSimulation": true,
+    "emergencyHotline": true
+  },
+  "talkAroundRange": 1500,
+  "betaServerGroups": [],
+  "dispatchServerGroups": ["255", "253", "251", "250", "249", "247", "246", "245", "244", "243", "240"],
+  "dispatchAdvancedServerGroups": [ "255", "253", "251", "250", "249", "247", "246", "245", "244", "243", "240" ],
+  "dispatchNameTags": [
+    "(P)",
+    "(S)",
+    "(T)",
+    "(FIRE)",
+    "(QA)",
+    "(EVAL)",
+    "[P]",
+    "[S]",
+    "[T]",
+    "[FIRE]",
+    "[QA]",
+    "[EVAL]"
+  ],
+  "civilianServerGroups": [ "299", "12", "10", "13", "16", "17", "277", "278", "297"],
+  "civChannels": [202],
+  "radioSystems": [198, 479],
+  "rtoChannels": [199, 201, 200],
+  "radioChannels": [
+    {
+      "id": 1,
+      "name": "Statewide",
+      "soundName": "ten_three",
+      "type": "LEO",
+      "coloredName": "[color=green]Statewide[/color]",
+      "talkEnforcement": true,
+      "talkAround": false,
+      "scannable": false,
+      "encrypted": true,
+      "permission": 20
+    },
+    {
+      "id": 2,
+      "name": "Other",
+      "soundName": "",
+      "type": "LEO",
+      "coloredName": "[color=red]Other[/color]",
+      "talkEnforcement": true,
+      "talkAround": false,
+      "scannable": true,
+      "encrypted": true,
+      "permission": 1
+    },
+    {
+      "id": 3,
+      "name": "Upper BC",
+      "soundName": "",
+      "type": "LEO",
+      "coloredName": "[color=red]Upper BC[/color]",
+      "talkEnforcement": true,
+      "talkAround": false,
+      "scannable": true,
+      "encrypted": true,
+      "permission": 1
+    },
+    {
+      "id": 4,
+      "name": "Lower BC",
+      "soundName": "",
+      "type": "LEO",
+      "coloredName": "[color=red]Lower BC[/color]",
+      "talkEnforcement": true,
+      "talkAround": false,
+      "scannable": true,
+      "encrypted": false,
+      "permission": 1
+    },
+    {
+      "id": 5,
+      "name": "Lower LS",
+      "soundName": "",
+      "type": "LEO",
+      "coloredName": "[color=red]Lower LS[/color]",
+      "talkEnforcement": true,
+      "talkAround": false,
+      "scannable": true,
+      "encrypted": false,
+      "permission": 1
+    },
+    {
+      "id": 6,
+      "name": "Upper LS",
+      "soundName": "",
+      "type": "LEO",
+      "coloredName": "[color=red]Upper LS[/color]",
+      "talkEnforcement": true,
+      "talkAround": false,
+      "scannable": true,
+      "encrypted": false,
+      "permission": 1
+    },
+    {
+      "id": 7,
+      "name": "Tac 1",
+      "soundName": "",
+      "type": "LEO",
+      "coloredName": "[color=purple]Tac 1[/color]",
+      "talkEnforcement": true,
+      "talkAround": false,
+      "scannable": true,
+      "encrypted": true,
+      "permission": 1
+    },
+    {
+      "id": 8,
+      "name": "Tac 2",
+      "soundName": "",
+      "type": "LEO",
+      "coloredName": "[color=purple]Tac 2[/color]",
+      "talkEnforcement": true,
+      "talkAround": false,
+      "scannable": true,
+      "encrypted": true,
+      "permission": 1
+    },
+    {
+      "id": 9,
+      "name": "Tac 3",
+      "soundName": "",
+      "type": "LEO",
+      "coloredName": "[color=purple]Tac 3[/color]",
+      "talkEnforcement": true,
+      "talkAround": false,
+      "scannable": true,
+      "encrypted": true,
+      "permission": 1
+    },
+    {
+      "id": 10,
+      "name": "Training 1",
+      "soundName": "",
+      "type": "LEO",
+      "coloredName": "[color=grey]Training 1[/color]",
+      "talkEnforcement": true,
+      "talkAround": true,
+      "scannable": true,
+      "encrypted": false,
+      "permission": 1
+    },
+    {
+      "id": 11,
+      "name": "Training 2",
+      "soundName": "",
+      "type": "LEO",
+      "coloredName": "[color=red]Training 2[/color]",
+      "talkEnforcement": true,
+      "talkAround": false,
+      "scannable": false,
+      "encrypted": true,
+      "permission": 1
+    },
+    {
+      "id": 12,
+      "name": "Training 3",
+      "soundName": "",
+      "type": "LEO",
+      "coloredName": "[color=red]Training 3[/color]",
+      "talkEnforcement": true,
+      "talkAround": false,
+      "scannable": false,
+      "encrypted": true,
+      "permission": 1
+    },
+    {
+      "id": 13,
+      "name": "Tow",
+      "soundName": "",
+      "type": "CIV",
+      "coloredName": "[color=red]TOW[/color]",
+      "talkEnforcement": true,
+      "talkAround": false,
+      "scannable": false,
+      "encrypted": true,
+      "permission": 1
+    },
+    {
+      "id": 14,
+      "name": "City Services",
+      "soundName": "",
+      "type": "LEO",
+      "coloredName": "[color=red]City Services[/color]",
+      "talkEnforcement": true,
+      "talkAround": false,
+      "scannable": false,
+      "encrypted": true,
+      "permission": 1
+    }
+  ],
+  "time_settings": {
+    "emergencyOverridePeriod": 10,
+    "emergencyCooldown": 30,
+    "emergencyOtherCooldown": 20,
+    "dispatchToneCooldown": 15,
+    "radioStunCooldown": 5,
+    "radioPingCooldown": 10,
+    "911Cooldown": 30,
+    "commandStunPeriod": 300,
+    "toneWaitTalkPeriod": 5
+  },
+  "permissions": {
+    "permBasic": {
+      "serverGroupList": ["299", "12", "10", "297", "13", "16", "17", "277", "278"]
+    },
+    "permExtra": {
+      "serverGroupList": []
+    },
+    "permSit": {
+      "serverGroupList": []
+    },
+    "permStaff": {
+      "serverGroupList": []
+    },
+    "permSenior": {
+      "serverGroupList": []
+    },
+    "permAdmin": {
+      "serverGroupList": []
+    },
+    "permSuper": {
+      "serverGroupList": []
+    }
+  }
+}
