@@ -26,7 +26,7 @@
         "[QA]",
         "[EVAL]"
     ],
-    "civilianServerGroups": [""],
+    "civilianServerGroups": ["4", "5", "7", "8", "12", "13", "14", "9", "11", "6"],
     "civChannels": [0],
     "radioSystems": [3, 9],
     "rtoChannels": [ 4, 5, 6, 7, 8, 9, 10, 11, 12, 13],
