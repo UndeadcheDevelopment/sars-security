@@ -29,7 +29,7 @@
   "civilianServerGroups": [ "1501", "1505", "1506", "1507", "1508", "1509", "1510", "1511", "1512", "1513" ],
   "civChannels": [957],
   "radioSystems": [232],
-  "rtoChannels": [231, 772, 785, 786],
+  "rtoChannels": [231, 772, 785, 786,  942],
   "radioChannels": [
     {
       "id": 1,
