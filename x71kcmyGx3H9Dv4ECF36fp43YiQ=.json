@@ -4,9 +4,9 @@
   "communityName": " RP",
   "betaCommunity": true,
   "features": {
-    "inGameInterface": false,
-    "rangeSimulation": false,
-    "emergencyHotline": false
+    "inGameInterface": true,
+    "rangeSimulation": true,
+    "emergencyHotline": true
   },
   "talkAroundRange": 1500,
   "betaServerGroups": [],
