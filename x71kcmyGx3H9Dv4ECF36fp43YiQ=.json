@@ -28,7 +28,7 @@
   ],
   "civilianServerGroups": ["410", "409", "408", "407", "406", "405", "404", "403", "402", "401"],
   "civChannels": [447],
-  "radioSystems": [64],
+  "radioSystems": [71],
   "rtoChannels": [74, 76, 75, 72, 77, 78, 79, 81, 82, 83, 84],
   "radioChannels": [
     {
