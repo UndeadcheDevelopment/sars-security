@@ -9,9 +9,9 @@
     "emergencyHotline": true
   },
   "talkAroundRange": 1500,
-  "betaServerGroups": ["1501", "1505", "1506", "1507", "1508", "1509", "1510", "1511", "1512", "1513", "1288"],
-  "dispatchServerGroups": [ "1513", "1512", "1498", "1288"],
-  "dispatchAdvancedServerGroups": [ "1513", "1512", "1498", "1288"],
+  "betaServerGroups": ["410", "409", "408", "407", "406", "405", "404", "403", "402", "401"],
+  "dispatchServerGroups": ["410", "409", "408", "407", "406", "405", "404", "403", "402", "401"],
+  "dispatchAdvancedServerGroups": ["410", "409", "408", "407", "406", "405", "404", "403", "402", "401"],
   "dispatchNameTags": [
     "(P)",
     "(S)",
@@ -26,10 +26,10 @@
     "[QA]",
     "[EVAL]"
   ],
-  "civilianServerGroups": [ "1501", "1505", "1506", "1507", "1508", "1509", "1510", "1511", "1512", "1513" ],
-  "civChannels": [1802, 1803],
-  "radioSystems": [1790, 1798, 1805, 1814],
-  "rtoChannels": [1794, 1795, 1796, 1797, 1800, 1801, 1792, 1793, 1791, 1809, 1810, 1811],
+  "civilianServerGroups": ["410", "409", "408", "407", "406", "405", "404", "403", "402", "401"],
+  "civChannels": [447],
+  "radioSystems": [64],
+  "rtoChannels": [74, 76, 75, 72, 77, 78, 79, 81, 82, 83, 84],
   "radioChannels": [
     {
       "id": 1,
@@ -213,25 +213,25 @@
   },
   "permissions": {
     "permBasic": {
-      "serverGroupList": []
+      "serverGroupList": ["410", "908", "408"]
     },
     "permExtra": {
       "serverGroupList": []
     },
     "permSit": {
-      "serverGroupList": []
+      "serverGroupList": ["407"]
     },
     "permStaff": {
-      "serverGroupList": []
+      "serverGroupList": ["406"]
     },
     "permSenior": {
-      "serverGroupList": []
+      "serverGroupList": ["405"]
     },
     "permAdmin": {
-      "serverGroupList": []
+      "serverGroupList": ["404", "403", "402"]
     },
     "permSuper": {
-      "serverGroupList": []
+      "serverGroupList": ["401"]
     }
   }
 }
