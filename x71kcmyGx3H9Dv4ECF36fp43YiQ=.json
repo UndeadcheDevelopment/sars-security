@@ -213,22 +213,22 @@
   },
   "permissions": {
     "permBasic": {
-      "serverGroupList": ["410", "908", "408"]
+      "serverGroupList": ["410", "908", "408", "407", "406", "405", "404", "403", "402"]
     },
     "permExtra": {
       "serverGroupList": []
     },
     "permSit": {
-      "serverGroupList": ["407"]
+      "serverGroupList": []
     },
     "permStaff": {
-      "serverGroupList": ["406"]
+      "serverGroupList": []
     },
     "permSenior": {
-      "serverGroupList": ["405"]
+      "serverGroupList": []
     },
     "permAdmin": {
-      "serverGroupList": ["404", "403", "402"]
+      "serverGroupList": []
     },
     "permSuper": {
       "serverGroupList": ["401"]
